@@ -1,95 +1,106 @@
-<style>
-*{margin: 0px;
-    padding: 0px;
 
-}
-nav{
+*{
     background-color: black;
-    padding: 20px;
+}
+.head{
     color: white;
+    text-align: center;
+   
+ 
 }
-ul,li{
-    background-color: black;
-    display: inline;
-
-}
-ul{
-    margin-left: 60%;
-}
-li{
-    color:grey;
+li,ul{
+    margin: 2px;
+    display: inline-block;
+    color: grey;
 }
 li:hover{
     color:white;
     cursor:pointer;
-}
-input{
+}#food{
+    background-color: white;
+  height:430px;
+  width: 1550px;
+  text-align: center;
+
     
-   padding: 15px;
-    width: 70%;
 
 }
-.search{
-    padding: 50px;
-    text-align: center;
-}
 .box1{
+    margin-top: 7px;
+    margin-bottom: 5px;
+   
     border-width:  2px;
     border-color: black;
+   background-color: white;
     border-style: solid;
-    width: 220px;
+    width: 250px;
     
     display: inline-block;
 }
+
 .box2{
     border-width:  2px;
     border-color: black;
+   background-color: white;
     border-style: solid;
-    width: 220px;
+    width: 250px;
     
     display: inline-block;
 }
+
 .box3{
     border-width:  2px;
     border-color: black;
+   background-color: white;
     border-style: solid;
-    width: 220px;
+    width: 250px;
     
     display: inline-block;
 }
 
-.box1:hover{
-    background-color:black;
-    color:white;
-    cursor: pointer;
-
-}
-.box2:hover{
-    background-color:black;
-    color:white;
-    cursor: pointer;
-
-}
-.box3:hover{
-    background-color:black;
-    color:white;
-    cursor: pointer;
-
-}
-.products{
-    text-align: center;
+.box4{
+    border-width:  2px;
+    border-color: black;
+   background-color: white;
+    border-style: solid;
+    width: 250px;
     
+    display: inline-block;
 }
-.aboutus{
-    color: black;
+
+p{
     background-color: white;
+    color: black;
     text-align: center;
+
+}
+h4{
+  margin-top: 5px;
+  color: white;
+  width: 50px;
+  padding:3px;
+  text-align: center;
+    display: inline;
+  
+}
+h4:hover{
+    background-color: red;
+    color:black;
+    cursor:pointer;
 }
 .contact{
-    background-color: black;
-    color: white;
-    padding:15px;
+    color:white;
     text-align: center;
+
+}
+input{
+    background-color:white;
+
 }
 
-</style>
+.input1 {
+    background-color: yellow;
+    padding: 5px;
+    width: 500px;
+}
+
